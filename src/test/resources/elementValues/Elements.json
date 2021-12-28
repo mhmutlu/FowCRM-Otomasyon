@@ -1,0 +1,41 @@
+[{"key": "mail-text",
+    "value": "EmailInput",
+    "type": "id"
+},{
+    "key": "next-btn",
+    "value": "EmailInputConfirm",
+    "type": "id"
+},{
+      "key": "tenant-name",
+      "value": "tenancyName",
+      "type": "id"
+},{
+    "key": "password-field",
+    "value": "password",
+    "type": "id"
+},{
+    "key": "Login-button",
+    "value": "LoginButton",
+    "type": "id"
+},{
+    "key": "logo",
+    "value": "header[class='sc-hRMWxn dtStwI']>div>div>a>img",
+    "type": "css"
+},{
+  "key": "menu2",
+  "value": "div[class='sc-jrQzAO bWopqL']>div>div>h3>span>b",
+  "type": "css"
+},{
+  "key": "logout",
+  "value": "div[class='sc-gfqkcP kxrWoa']>div>span",
+  "type": "css"
+},{
+    "key": "Account-Category",
+    "value": "div[class='sc-PZsNp fXJqtG']>ul>li:nth-child(1)>div>h3>span>div>span",
+    "type": "css"
+  },{
+  "key": "Account-tab",
+  "value": "ul[id='rc-menu-uuid-31538-1-account-popup']>li:nth-child(1)>div>div>h3>span>a:nth-child(1)",
+  "type": "css"
+}
+]
