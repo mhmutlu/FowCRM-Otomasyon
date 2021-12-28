@@ -34,7 +34,7 @@
     "value": "div[class='sc-PZsNp fXJqtG']>ul>li:nth-child(1)>div>h3>span>div>span",
     "type": "css"
   },{
-  "key": "Account-tab",
+  "key": "Account-tabs",
   "value": "ul[id='rc-menu-uuid-31538-1-account-popup']>li:nth-child(1)>div>div>h3>span>a:nth-child(1)",
   "type": "css"
 }
