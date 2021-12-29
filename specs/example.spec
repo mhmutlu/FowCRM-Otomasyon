@@ -5,10 +5,11 @@ Login & Logout
 * Login
 * Logout
 
-Account
+Lead
 ----------
 * Login
-* "Account-Category" elementine focus ile tıkla
+* "Lead-Category" elementine focus ile tıkla
 * "1" saniye bekle
-* "Account-tab" elementine focus ile tıkla
-* "10" saniye bekle
+* "Lead-tab" elementine focus ile tıkla
+* "Lead-list" elementine focus ile tıkla
+* "5" saniye bekle
