@@ -9,6 +9,6 @@ Account
 ----------
 * Login
 * "Account-Category" elementine focus ile tıkla
-* Elementine tıkla "Account-tab"
+* "1" saniye bekle
 * "Account-tab" elementine focus ile tıkla
-* "3" saniye bekle
+* "10" saniye bekle

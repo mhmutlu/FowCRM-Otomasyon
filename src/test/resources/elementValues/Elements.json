@@ -35,7 +35,7 @@
     "type": "css"
   },{
   "key": "Account-tab",
-  "value": "ul[id='rc-menu-uuid-31538-1-account-popup']>li:nth-child(1)>div>div>h3>span>a:nth-child(1)",
+  "value": "ul[class='rc-menu rc-menu-sub rc-menu-vertical']>li:nth-child(1)>div>div>h3>span",
   "type": "css"
 }
 ]
