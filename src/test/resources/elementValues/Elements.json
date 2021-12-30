@@ -1,26 +1,27 @@
-[{"key": "mail-text",
-    "value": "EmailInput",
-    "type": "id"
+[{
+  "key": "mail-text",
+  "value": "EmailInput",
+  "type": "id"
 },{
-    "key": "next-btn",
-    "value": "EmailInputConfirm",
-    "type": "id"
+  "key": "next-btn",
+  "value": "EmailInputConfirm",
+  "type": "id"
 },{
-      "key": "tenant-name",
-      "value": "tenancyName",
-      "type": "id"
+  "key": "tenant-name",
+  "value": "tenancyName",
+  "type": "id"
 },{
-    "key": "password-field",
-    "value": "password",
-    "type": "id"
+  "key": "password-field",
+  "value": "password",
+  "type": "id"
 },{
-    "key": "Login-button",
-    "value": "LoginButton",
-    "type": "id"
+  "key": "Login-button",
+  "value": "LoginButton",
+  "type": "id"
 },{
-    "key": "logo",
-    "value": "header[class='sc-hRMWxn dtStwI']>div>div>a>img",
-    "type": "css"
+  "key": "logo",
+  "value": "header[class='sc-hRMWxn dtStwI']>div>div>a>img",
+  "type": "css"
 },{
   "key": "menu2",
   "value": "div[class='sc-jrQzAO bWopqL']>div>div>h3>span>b",
@@ -30,10 +31,10 @@
   "value": "div[class='sc-gfqkcP kxrWoa']>div>span",
   "type": "css"
 },{
-    "key": "Lead-Category",
-    "value": "div[class='sc-PZsNp fXJqtG']>ul>li:nth-child(2)>div>h3>span>div>span",
-    "type": "css"
-  },{
+  "key": "Lead-Category",
+  "value": "div[class='sc-PZsNp fXJqtG']>ul>li:nth-child(2)>div>h3>span>div>span",
+  "type": "css"
+},{
   "key": "Lead-tab",
   "value": "ul[class='rc-menu rc-menu-sub rc-menu-vertical']>li:nth-child(1)>div>div>h3>span",
   "type": "css"
