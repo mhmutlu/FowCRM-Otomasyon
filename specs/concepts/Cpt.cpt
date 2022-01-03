@@ -14,3 +14,5 @@
 * "menu2" elementine focus ile tıkla
 * "logout" elementine focus ile tıkla
 * "3" saniye bekle
+*"logout-check" elementi "Login With Registered Account" değerini içeriyor mu kontrol et
+* "3" saniye bekle

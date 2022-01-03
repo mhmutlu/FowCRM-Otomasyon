@@ -41,5 +41,9 @@
   "key": "Lead-list",
   "value": "table[class='sc-eFegNN cXwxLy']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
   "type": "css"
+}, {
+  "key": "logout-check",
+  "value": "div[class='col-lg-7 row']>div>div>div>span",
+  "tpye": "css"
 }
 ]
