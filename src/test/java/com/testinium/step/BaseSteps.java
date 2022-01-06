@@ -495,6 +495,7 @@ public class BaseSteps extends BaseTest {
     public void checkElementContainsText(String key, String expectedText) {
 
         Boolean containsText = findElement(key).getText().contains(expectedText);
+        System.out.println(findElement(key).getText());
         assertTrue(containsText, "Expected text is not contained");
         logger.info(key + " elementi" + expectedText + "değerini içeriyor.");
     }

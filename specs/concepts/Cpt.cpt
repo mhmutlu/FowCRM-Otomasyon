@@ -1,13 +1,13 @@
 # Login
-* "https://crm.dev.fowapps.com/" adresine git
+* "https://crm.fowapps.com/" adresine git
 * "3" saniye bekle
 * "mhmutlu@bilgeadam.com" değerini "mail-text" elementine focus ile yaz
 * "next-btn" elementine focus ile tıkla
 * "3" saniye bekle
-* "fow-test1" değerini "tenant-name" elementine focus ile yaz
+* "fow-canli" değerini "tenant-name" elementine focus ile yaz
 * "Mh_321" değerini "password-field" elementine focus ile yaz
 * "Login-button" elementine focus ile tıkla
-* "15" saniye bekle
+* "5" saniye bekle
 * "logo" elementini kontrol et
 
 #Logout
