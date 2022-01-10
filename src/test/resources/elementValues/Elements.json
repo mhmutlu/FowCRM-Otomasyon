@@ -28,11 +28,11 @@
   "type": "css"
 },{
   "key": "logout",
-  "value": "div[class='sc-bLdqUH fNDtGE']>div>span",
+  "value": "div[class='sc-jibziO lfSsCf']>div>span",
   "type": "css"
 },{
   "key": "Lead-Category",
-  "value": "div[class='sc-PZsNp fXJqtG']>ul>li:nth-child(2)>div>h3>span>div>span",
+  "value": "div[class='sc-cRKLkh fWmHDk']>ul>li:nth-child(2)>div>h3>span>div>span",
   "type": "css"
 },{
   "key": "Lead-tab",
@@ -40,7 +40,7 @@
   "type": "css"
 },{
   "key": "Lead-list",
-  "value": "table[class='sc-eFegNN cXwxLy']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
+  "value": "table[class='sc-jlRLRk gBuNXz']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
   "type": "css"
 }, {
   "key": "logout-check",
