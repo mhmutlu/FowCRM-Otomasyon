@@ -7,10 +7,18 @@
 * "fow-canli" değerini "tenant-name" elementine focus ile yaz
 * "Mh_321" değerini "password-field" elementine focus ile yaz
 * "Login-button" elementine focus ile tıkla
-* "5" saniye bekle
-* "logo" elementini kontrol et
+            * "5" saniye bekle
+//* "logo" elementini kontrol et
 
 #Logout
 * "menu2" elementine focus ile tıkla
 * "logout" elementine focus ile tıkla
 * "3" saniye bekle
+
+#LeadDetail
+* "Lead-Category" elementine focus ile tıkla
+* "1" saniye bekle
+* "Lead-tab" elementine focus ile tıkla
+* "Lead-list" elementi "Test Lead" değerini içeriyor mu kontrol et
+* Elementi bekle ve sonra tıkla "Lead-list"
+* "5" saniye bekle

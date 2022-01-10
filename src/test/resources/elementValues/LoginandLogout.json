@@ -31,20 +31,16 @@
   "value": "div[class='sc-jibziO lfSsCf']>div>span",
   "type": "css"
 },{
-  "key": "Lead-Category",
-  "value": "div[class='sc-cRKLkh fWmHDk']>ul>li:nth-child(2)>div>h3>span>div>span",
-  "type": "css"
-},{
-  "key": "Lead-tab",
-  "value": "ul[class='rc-menu rc-menu-sub rc-menu-vertical']>li:nth-child(1)>div>div>h3>span",
-  "type": "css"
-},{
-  "key": "Lead-list",
-  "value": "table[class='sc-jlRLRk gBuNXz']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
-  "type": "css"
-}, {
   "key": "logout-check",
   "value": "div[class='col-lg-7 row']>div>div>div>span",
   "tpye": "css"
+}, {
+  "key": "detail-threedot",
+  "value": "button[class='sc-cxpSdN kirMNF']>span>div>span>svg",
+  "type": "css"
+},{
+  "key": "detail-edit",
+  "value": "div[class='sc-bXTejn jahrdl']>div>div>a>a>span>div>span:nth-child(2)",
+  "type": "css"
 }
 ]
