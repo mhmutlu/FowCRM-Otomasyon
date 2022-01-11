@@ -8,10 +8,18 @@ Login & Logout
 Lead
 ----------
 * Login
-* "Lead-Category" elementine focus ile tıkla
-* "1" saniye bekle
-* "Lead-tab" elementine focus ile tıkla
-* "Lead-list" elementi "Test Lead" değerini içeriyor mu kontrol et
-* Elementi bekle ve sonra tıkla "Lead-list"
-* "5" saniye bekle
+* LeadDetail
 * Logout
+
+Lead Edit
+---------
+* Login
+* LeadDetail
+* Click to element "detail-threedot" with focus
+* Wait "2" seconds
+* Click to element "detail-edit" with focus
+* Wait "2" seconds
+* Clear text of element "leadNameTxt"
+* Wait "2" seconds
+* Write value "mehmet" to element "leadNameTxt" with focus
+* Wait "2" seconds
