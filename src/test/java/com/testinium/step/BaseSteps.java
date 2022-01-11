@@ -175,6 +175,15 @@ public class BaseSteps extends BaseTest {
         logger.info(key + " elementine tıklandı.");
     }
 
+    @Step({"Check title for <key>,",
+            "Başlığı kontrol et <key>"})
+    public void checkTitle(String expectedTitle){
+        System.out.println(driver.getTitle());
+        Boolean containsText = driver.getTitle().contains(expectedTitle);
+        assertTrue(containsText, "Expected text is not contained");
+        logger.info(driver.getTitle() + " ile" + expectedTitle + "başlığı uyuşuyor.");
+    }
+
 
     @Step({"Click to element <key>",
             "Elementine tıkla <key>"})

@@ -7,7 +7,8 @@
 * "fow-canli" değerini "tenant-name" elementine focus ile yaz
 * "Mh_321" değerini "password-field" elementine focus ile yaz
 * "Login-button" elementine focus ile tıkla
-            * "5" saniye bekle
+* "10" saniye bekle
+* Başlığı kontrol et "Fow CRM"
 //* "logo" elementini kontrol et
 
 #Logout
