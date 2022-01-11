@@ -1,0 +1,18 @@
+#Lead Detail
+* "Lead-Category" elementine focus ile tıkla
+* "1" saniye bekle
+* "Lead-tab" elementine focus ile tıkla
+* "Lead-list" elementi "Test Lead" değerini içeriyor mu kontrol et
+* Elementi bekle ve sonra tıkla "Lead-list"
+* "5" saniye bekle
+
+#Lead Edit
+* Click to element "detail-threedot" with focus
+* Wait "2" seconds
+* Click to element "detail-edit" with focus
+* Wait "3" seconds
+* "leadNameTxt" alanını action backspace ile temizle
+* Wait "2" seconds
+* Write value "ahmet" to element "leadNameTxt"
+ Write value "mehmet" to element "leadNameTxt" with focus
+* Wait "15" seconds

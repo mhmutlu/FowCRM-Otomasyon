@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.nio.charset.StandardCharsets;
 import java.sql.Timestamp;
 import java.util.*;
 
@@ -178,7 +179,6 @@ public class BaseSteps extends BaseTest {
     @Step({"Check title for <key>,",
             "Başlığı kontrol et <key>"})
     public void checkTitle(String expectedTitle){
-        System.out.println(driver.getTitle());
         Boolean containsText = driver.getTitle().contains(expectedTitle);
         assertTrue(containsText, "Expected text is not contained");
         logger.info(driver.getTitle() + " ile" + expectedTitle + "başlığı uyuşuyor.");
@@ -502,8 +502,8 @@ public class BaseSteps extends BaseTest {
     @Step({"Check if element <key> contains text <expectedText>",
             "<key> elementi <text> değerini içeriyor mu kontrol et"})
     public void checkElementContainsText(String key, String expectedText) {
-
         Boolean containsText = findElement(key).getText().contains(expectedText);
+        System.out.println("text: " + findElement(key).getText());
         assertTrue(containsText, "Expected text is not contained");
         logger.info(key + " elementi" + expectedText + "değerini içeriyor.");
     }
@@ -749,6 +749,18 @@ public class BaseSteps extends BaseTest {
     public void clearWithJS(String key) {
         WebElement element = findElement(key);
         ((JavascriptExecutor) driver).executeScript("arguments[0].value ='';", element);
+        clearInputArea(key);
+    }
+
+    @Step("<key> alanını action backspace ile temizle")
+    public void clearWithActionBackspace(String key){
+        WebElement element = findElement(key);
+
+        String containsText = findElement(key).getText();
+        System.out.println("text: " + containsText);
+        actions.moveToElement(element);
+        actions.click();
+        actions.sendKeys(Keys.BACK_SPACE).build().perform();
     }
 
 

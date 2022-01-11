@@ -1,6 +1,6 @@
 [{
   "key": "leadNameTxt",
-  "value": "z",
+  "value": "firstName",
   "type": "id"
 },{
   "key": "Lead-Category",
@@ -13,6 +13,14 @@
 },{
   "key": "Lead-list",
   "value": "table[class='sc-jlRLRk gBuNXz']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
+  "type": "css"
+},{
+  "key": "ded",
+  "value": "div[class='ant-row ant-form-item ant-form-item-with-help ant-form-item-has-error']>div>div>div>input",
+  "type": "css"
+},{
+  "key": "leadLastNameTxt",
+  "value": "div[class='ant-form-item-control-input-content']>input[id='lastName']",
   "type": "css"
 }
 ]
