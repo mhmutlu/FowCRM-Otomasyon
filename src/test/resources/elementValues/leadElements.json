@@ -1,6 +1,6 @@
 [{
   "key": "leadNameTxt",
-  "value": "z",
+  "value": "firstName",
   "type": "id"
 },{
   "key": "Lead-Category",
@@ -14,5 +14,77 @@
   "key": "Lead-list",
   "value": "table[class='sc-jlRLRk gBuNXz']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
   "type": "css"
+},{
+  "key": "save-button",
+  "value": "button[class='ant-btn ant-btn-text ant-btn-flat base-sc-1nyq7v5-0 styles__StyledButton-sc-1dkgdhi-0 dHEEss bGZLjy']",
+  "type": "css"
+},{
+  "key": "lead-detail-name",
+  "value": "div[class='sc-jrQzAO gpODUY']>div>h4>span",
+  "type": "css"
+},{
+  "key": "leadLastNameTxt",
+  "value": "lastName",
+  "type": "id"
+},{
+  "key": "leadEmailTxt",
+  "value": "email",
+  "type": "id"
+},{
+  "key": "Lead-Add-Button",
+  "value": "button[class='sc-cxpSdN didjSf']>span",
+  "type": "css"
+},{
+  "key": "Lead-PhoneNumber",
+  "value": "div[class=' react-tel-input']>input",
+  "type": "css"
+},{
+  "key": "Department",
+  "value": "department",
+  "type": "id"
+},{
+  "key": "Title",
+  "value": "title",
+  "type": "id"
+},{
+  "key": "Description",
+  "value": "div[class='notranslate public-DraftEditor-content']",
+  "type": "css"
+},{
+  "key": "kaynak",
+  "value": "sourceId",
+  "type": "id"
+},{
+  "key": "drawer-btn",
+  "value": "div[class='ant-drawer-footer']>button",
+  "type": "css"
+},{
+  "key": "convert-btn",
+  "value": "button[class='sc-cxpSdN hGRovP']:nth-child(1)>span",
+  "type": "css"
+},{
+  "key": "convert-radio-btn",
+  "value": "span[class='ant-radio-inner']",
+  "type": "css"
+},{
+  "key": "",
+  "value": "",
+  "type": ""
+},{
+  "key": "",
+  "value": "",
+  "type": ""
+},{
+  "key": "",
+  "value": "",
+  "type": ""
+},{
+  "key": "",
+  "value": "",
+  "type": ""
+},{
+  "key": "",
+  "value": "",
+  "type": ""
 }
 ]

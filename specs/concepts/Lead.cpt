@@ -1,0 +1,54 @@
+#Lead List Page
+* "Lead-Category" elementine focus ile tıkla
+* "1" saniye bekle
+* "Lead-tab" elementine focus ile tıkla
+
+#Lead Detail
+* Gettext ile niteliği sakla "Lead-list" elementi için
+* Elementi bekle ve sonra tıkla "Lead-list"
+* "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* "3" saniye bekle
+
+#Lead Edit
+* Click to element "detail-threedot" with focus
+* Wait "2" seconds
+* Click to element "detail-edit" with focus
+* Wait "3" seconds
+* "leadNameTxt" alanını action backspace ile temizle
+* "leadLastNameTxt" alanını action backspace ile temizle
+* "leadEmailTxt" alanını action backspace ile temizle
+* Wait "2" seconds
+* "leadNameTxt" elementine random değer yaz
+* "leadLastNameTxt" elementine random değer yaz
+* "leadEmailTxt" li elementi bul, temizle ve rasgele  email değerini yaz
+* Wait "5" seconds
+* Gettext ile niteliği adı "leadNameTxt" ve soyad "leadLastNameTxt" elementi için
+* Click to element "save-button" with focus
+* Wait "5" seconds
+* "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Wait "2" seconds
+
+#Lead Add
+* Click to element "Lead-Add-Button" with focus
+* Wait "2" seconds
+* "leadNameTxt" elementine random değer yaz
+* "leadLastNameTxt" elementine random değer yaz
+* "leadEmailTxt" li elementi bul, temizle ve rasgele  email değerini yaz
+* "Lead-PhoneNumber" elemetine rastgele telefon numarası yaz
+* "Department" elementine random değer yaz
+* "Title" elementine random değer yaz
+* "Description" elementine random değer yaz
+* Gettext ile niteliği adı "leadNameTxt" ve soyad "leadLastNameTxt" elementi için
+* Click to element "drawer-btn" with focus
+* Wait "5" seconds
+* "Lead-list" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Wait "2" seconds
+
+#Lead Convert
+* Click to element "convert-btn" with focus
+* Wait "2" seconds
+* Click to element "convert-radio-btn" with focus
+* Click to element "drawer-btn" with focus
+* Wait "2" seconds
+
+

@@ -8,18 +8,29 @@ Login & Logout
 Lead
 ----------
 * Login
-* LeadDetail
+* Lead List Page
+* Lead Detail
+* Logout
+
+Lead Add
+--------
+* Login
+* Lead List Page
+* Lead Add
 * Logout
 
 Lead Edit
 ---------
 * Login
-* LeadDetail
-* Click to element "detail-threedot" with focus
-* Wait "2" seconds
-* Click to element "detail-edit" with focus
-* Wait "2" seconds
-* Clear text of element "leadNameTxt"
-* Wait "2" seconds
-* Write value "mehmet" to element "leadNameTxt" with focus
-* Wait "2" seconds
+* Lead List Page
+* Lead Detail
+* Lead Edit
+* Logout
+
+Lead Convert
+--------
+* Login
+* Lead List Page
+* Lead Detail
+* Lead Convert
+* Logout

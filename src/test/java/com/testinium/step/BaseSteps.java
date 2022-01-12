@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.nio.charset.StandardCharsets;
 import java.sql.Timestamp;
 import java.util.*;
 
@@ -178,7 +179,6 @@ public class BaseSteps extends BaseTest {
     @Step({"Check title for <key>,",
             "Başlığı kontrol et <key>"})
     public void checkTitle(String expectedTitle){
-        System.out.println(driver.getTitle());
         Boolean containsText = driver.getTitle().contains(expectedTitle);
         assertTrue(containsText, "Expected text is not contained");
         logger.info(driver.getTitle() + " ile" + expectedTitle + "başlığı uyuşuyor.");
@@ -493,6 +493,19 @@ public class BaseSteps extends BaseTest {
         System.out.println("Saved attribute value is: " + SAVED_ATTRIBUTE);
     }
 
+    @Step({"Save attribute value of element <key> with getText",
+            "Gettext ile niteliği sakla <key> elementi için"})
+    public void saveAttributeValueOfElementgetText(String key) {
+        SAVED_ATTRIBUTE = findElement(key).getText();
+        System.out.println("Saved attribute value is 2: " + SAVED_ATTRIBUTE);
+    }
+
+    @Step({"Gettext ile niteliği adı <ad> ve soyad <soyad> elementi için"})
+    public void saveAttributeValuesOfElemens(String ad, String soyad) {
+        SAVED_ATTRIBUTE = findElement(ad).getAttribute("value") + " " + findElement(soyad).getAttribute("value");
+        System.out.println("Saved attribute value is: " + SAVED_ATTRIBUTE);
+    }
+
     @Step({"Write saved attribute value to element <key>",
             "Kaydedilmiş niteliği <key> elementine yaz"})
     public void writeSavedAttributeToElement(String key) {
@@ -502,10 +515,17 @@ public class BaseSteps extends BaseTest {
     @Step({"Check if element <key> contains text <expectedText>",
             "<key> elementi <text> değerini içeriyor mu kontrol et"})
     public void checkElementContainsText(String key, String expectedText) {
-
         Boolean containsText = findElement(key).getText().contains(expectedText);
         assertTrue(containsText, "Expected text is not contained");
         logger.info(key + " elementi" + expectedText + "değerini içeriyor.");
+    }
+
+    @Step({"Check if element <key> contains text saved attribute",
+            "<key> elementi kaydedilmiş attribute değerini içeriyor mu kontrol et"})
+    public void checkElementContainsTextAtribute(String key) {
+        Boolean containsText = findElement(key).getText().contains(SAVED_ATTRIBUTE);
+        assertTrue(containsText, "Expected text is not contained");
+        logger.info(key + " elementi" + SAVED_ATTRIBUTE + "değerini içeriyor.");
     }
 
     @Step({"Write random value to element <key>",
@@ -693,6 +713,20 @@ public class BaseSteps extends BaseTest {
 
     }
 
+    @Step({"<key> elemetine rastgele telefon numarası yaz"})
+        public void RandomPhonenumber(String key){
+        Random rand = new Random();
+
+        int num1, num2, num3;
+
+        num1 = rand.nextInt (900) + 100;
+        num2 = rand.nextInt (643) + 100;
+        num3 = rand.nextInt (9000) + 1000;
+        WebElement webElement = findElementWithKey(key);
+        webElement.clear();
+        webElement.sendKeys(num1+""+num2+""+num3);
+    }
+
     @Step("<key> olarak <text> seçersem")
     public void choosingTextFromList(String key, String text) throws InterruptedException {
         List<WebElement> comboBoxElement = findElements(key);
@@ -749,6 +783,18 @@ public class BaseSteps extends BaseTest {
     public void clearWithJS(String key) {
         WebElement element = findElement(key);
         ((JavascriptExecutor) driver).executeScript("arguments[0].value ='';", element);
+        clearInputArea(key);
+    }
+
+    @Step("<key> alanını action backspace ile temizle")
+    public void clearWithActionBackspace(String key){
+        WebElement element = findElement(key);
+        String textValue = findElement(key).getAttribute("value");
+        for (int i = 0 ; i < textValue.length(); i ++){
+            actions.moveToElement(element);
+            actions.click();
+            actions.sendKeys(Keys.BACK_SPACE).build().perform();
+        }
     }
 
 
@@ -768,7 +814,7 @@ public class BaseSteps extends BaseTest {
 
     @Step("<key> menu listesinden rasgele seç")
     public void chooseRandomElementFromList(String key) {
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 3 ; i++)
             randomPick(key);
     }
 
