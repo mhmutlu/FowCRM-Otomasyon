@@ -755,12 +755,13 @@ public class BaseSteps extends BaseTest {
     @Step("<key> alanını action backspace ile temizle")
     public void clearWithActionBackspace(String key){
         WebElement element = findElement(key);
-
-        String containsText = findElement(key).getText();
-        System.out.println("text: " + containsText);
-        actions.moveToElement(element);
-        actions.click();
-        actions.sendKeys(Keys.BACK_SPACE).build().perform();
+        String containsText = findElement(key).getAttribute("value");
+        for (int i = 0 ; i < containsText.length(); i ++){
+            System.out.println("i'in değer: " + i);
+            actions.moveToElement(element);
+            actions.click();
+            actions.sendKeys(Keys.BACK_SPACE).build().perform();
+        }
     }
 
 
