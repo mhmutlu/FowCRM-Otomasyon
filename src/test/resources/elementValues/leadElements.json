@@ -55,17 +55,17 @@
   "value": "sourceId",
   "type": "id"
 },{
-  "key": "save-btn",
+  "key": "drawer-btn",
   "value": "div[class='ant-drawer-footer']>button",
   "type": "css"
 },{
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "convert-btn",
+  "value": "button[class='sc-cxpSdN hGRovP']:nth-child(1)>span",
+  "type": "css"
 },{
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "convert-radio-btn",
+  "value": "span[class='ant-radio-inner']",
+  "type": "css"
 },{
   "key": "",
   "value": "",

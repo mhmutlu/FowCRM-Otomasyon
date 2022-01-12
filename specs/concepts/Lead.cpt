@@ -7,7 +7,7 @@
 * Gettext ile niteliği sakla "Lead-list" elementi için
 * Elementi bekle ve sonra tıkla "Lead-list"
 * "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
-* "5" saniye bekle
+* "3" saniye bekle
 
 #Lead Edit
 * Click to element "detail-threedot" with focus
@@ -39,7 +39,16 @@
 * "Title" elementine random değer yaz
 * "Description" elementine random değer yaz
 * Gettext ile niteliği adı "leadNameTxt" ve soyad "leadLastNameTxt" elementi için
-* Click to element "save-btn" with focus
-* Wait "2" seconds
-* "Lead-list" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Click to element "drawer-btn" with focus
 * Wait "5" seconds
+* "Lead-list" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Wait "2" seconds
+
+#Lead Convert
+* Click to element "convert-btn" with focus
+* Wait "2" seconds
+* Click to element "convert-radio-btn" with focus
+* Click to element "drawer-btn" with focus
+* Wait "2" seconds
+
+

@@ -12,15 +12,25 @@ Lead
 * Lead Detail
 * Logout
 
+Lead Add
+--------
+* Login
+* Lead List Page
+* Lead Add
+* Logout
+
 Lead Edit
 ---------
 * Login
 * Lead List Page
 * Lead Detail
 * Lead Edit
+* Logout
 
-Lead Add
+Lead Convert
 --------
 * Login
 * Lead List Page
-* Lead Add
+* Lead Detail
+* Lead Convert
+* Logout
