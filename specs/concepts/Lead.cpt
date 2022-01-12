@@ -54,4 +54,10 @@
 * "lead-cnvrt-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * Wait "2" seconds
 
+#Lead Activity Add
+* Click to element "lead-activity" with focus
+* Wait for element then click "add-activity-btn"
+* Wait "2" seconds
+* "activity-add-form-header" elementi "Add Activity" değerini içeriyor mu kontrol et
 
+* Wait "3" seconds

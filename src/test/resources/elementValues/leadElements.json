@@ -75,6 +75,30 @@
   "value": "div[class='sc-fWCJzd fxhWyn']>h3:nth-child(2)>span",
   "type": "css"
 },{
+  "key": "lead-activity",
+  "value": "a:nth-child(5)>a>span>div>span>div>span>h3>span",
+  "type": "css"
+},{
+  "key": "add-activity-btn",
+  "value": "button[class='sc-cxpSdN eQlGEI']",
+  "type": "css"
+},{
+  "key": "activity-add-form-header",
+  "value": "div[class='ant-drawer-header-title']>div",
+  "type": "css"
+},{
+  "key": "activity-choose",
+  "value": "div.ant-drawer-body>div>div>div:nth-child(2)>div>div>button>span>div>span",
+  "type": "css"
+},{
+  "key": "",
+  "value": "",
+  "type": ""
+},{
+  "key": "",
+  "value": "",
+  "type": ""
+},{
   "key": "",
   "value": "",
   "type": ""

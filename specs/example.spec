@@ -34,3 +34,10 @@ Lead Convert
 * Lead Detail
 * Lead Convert
 * Logout
+
+Lead Activity
+--------
+* Login
+* Lead List Page
+* Lead Detail
+* Lead Activity Add
