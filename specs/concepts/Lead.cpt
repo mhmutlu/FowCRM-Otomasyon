@@ -50,5 +50,8 @@
 * Click to element "convert-radio-btn" with focus
 * Click to element "drawer-btn" with focus
 * Wait "2" seconds
+* "lead-cnvrt" elementi "Lead Is Converted" değerini içeriyor mu kontrol et
+* "lead-cnvrt-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Wait "2" seconds
 
 

@@ -67,13 +67,13 @@
   "value": "span[class='ant-radio-inner']",
   "type": "css"
 },{
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "lead-cnvrt",
+  "value": "div[class='sc-fWCJzd fxhWyn']>h3:nth-child(1)>span",
+  "type": "css"
 },{
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "lead-cnvrt-name",
+  "value": "div[class='sc-fWCJzd fxhWyn']>h3:nth-child(2)>span",
+  "type": "css"
 },{
   "key": "",
   "value": "",
