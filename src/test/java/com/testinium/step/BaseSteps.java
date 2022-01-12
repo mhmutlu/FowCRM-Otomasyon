@@ -531,7 +531,7 @@ public class BaseSteps extends BaseTest {
     @Step({"Write random value to element <key>",
             "<key> elementine random değer yaz"})
     public void writeRandomValueToElement(String key) {
-        findElement(key).sendKeys(randomString(15));
+        findElement(key).sendKeys(randomString(6));
     }
 
     @Step({"Write random value to element <key> starting with <text>",
@@ -709,8 +709,7 @@ public class BaseSteps extends BaseTest {
         Long timestamp = getTimestamp();
         WebElement webElement = findElementWithKey(key);
         webElement.clear();
-        webElement.sendKeys("testotomasyon" + timestamp + "@sahabt.com");
-
+        webElement.sendKeys("otomasyon" + timestamp + "@bilgeadam.com");
     }
 
     @Step({"<key> elemetine rastgele telefon numarası yaz"})
