@@ -68,21 +68,97 @@
   "type": "css"
 },{
   "key": "lead-cnvrt",
-  "value": "div[class='sc-fWCJzd fxhWyn']>h3:nth-child(1)>span",
+  "value": "div[class='sc-bTfYFJ koQHXk']>h3:nth-child(1)>span",
   "type": "css"
 },{
   "key": "lead-cnvrt-name",
   "value": "div[class='sc-fWCJzd fxhWyn']>h3:nth-child(2)>span",
   "type": "css"
 },{
+  "key": "lead-activity",
+  "value": "a:nth-child(5)>a>span>div>span>div>span>h3>span",
+  "type": "css"
+},{
+  "key": "add-activity-btn",
+  "value": "button[class='sc-cxpSdN eQlGEI']",
+  "type": "css"
+},{
+  "key": "activity-add-form-header",
+  "value": "div[class='ant-drawer-header-title']>div",
+  "type": "css"
+},{
+  "key": "activity-choose",
+  "value": "div.ant-drawer-body>div>div>div:nth-child(2)>div>div>button>span>div>span",
+  "type": "css"
+},{
+  "key": "subject",
+  "value": "subject",
+  "type": "id"
+},{
+  "key": "date",
+  "value": "date",
+  "type": "id"
+},{
+  "key": "date-today",
+  "value": "td.ant-picker-cell.ant-picker-cell-in-view.ant-picker-cell-today>div",
+  "type": "css"
+},{
+  "key": "choose-minitue",
+  "value": "ul[class='ant-picker-time-panel-column']:nth-child(2)>li.ant-picker-time-panel-cell.ant-picker-time-panel-cell-selected>div",
+  "type": "css"
+},{
+  "key": "choose-hour",
+  "value": "ul[class='ant-picker-time-panel-column']:nth-child(1) > li:nth-child(15) > div",
+  "type": "css"
+}, {
+  "key": "date-save-btn",
+  "value": "button[class='ant-btn ant-btn-primary ant-btn-sm']",
+  "type": "css"
+}, {
+  "key": "save-actvty-btn",
+  "value": "button[class='sc-cxpSdN eQDdjk']",
+  "type": "css"
+}, {
+  "key": "purposelist",
+  "value": "purposeId",
+  "type": "id"
+}, {
+  "key": "Description",
+  "value": "div[class='notranslate public-DraftEditor-content']",
+  "type": "css"
+}, {
   "key": "",
   "value": "",
   "type": ""
-},{
+}, {
   "key": "",
   "value": "",
   "type": ""
-},{
+}, {
+  "key": "",
+  "value": "",
+  "type": ""
+}, {
+  "key": "",
+  "value": "",
+  "type": ""
+}, {
+  "key": "",
+  "value": "",
+  "type": ""
+}, {
+  "key": "",
+  "value": "",
+  "type": ""
+}, {
+  "key": "",
+  "value": "",
+  "type": ""
+}, {
+  "key": "",
+  "value": "",
+  "type": ""
+}, {
   "key": "",
   "value": "",
   "type": ""

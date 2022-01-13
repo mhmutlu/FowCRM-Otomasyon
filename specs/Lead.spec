@@ -1,9 +1,4 @@
-# FowCRM
-
-Login & Logout
-----------
-* Login
-* Logout
+#Lead Cases
 
 Lead
 ----------
@@ -33,4 +28,12 @@ Lead Convert
 * Lead List Page
 * Lead Detail
 * Lead Convert
+* Logout
+
+Lead Activity
+--------
+* Login
+* Lead List Page
+* Lead Detail
+* Lead Activity Add
 * Logout
