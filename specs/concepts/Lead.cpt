@@ -60,4 +60,12 @@
 * Wait "2" seconds
 * "activity-add-form-header" elementi "Add Activity" değerini içeriyor mu kontrol et
 * Wait for element then click "activity-choose"
+* Write value "Subject" to element "subject"
+* Wait for element then click "date"
+* Wait for element then click "date-today"
+* Wait for element then click "choose-hour"
+* Wait for element then click "date-save-btn"
+* "purposelist" menu listesinden rasgele seç
+* Write random value to element "Description"
+* Wait for element then click "save-actvty-btn"
 * Wait "3" seconds
