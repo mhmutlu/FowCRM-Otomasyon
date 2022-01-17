@@ -1,11 +1,11 @@
 #Lead Cases
 
-Contact Detail
+Contact List
 ---------
 * Login
 * Contact List Page
 
-Contact List
+Contact Detail
 ---------
 * Login
 * Contact List Page
