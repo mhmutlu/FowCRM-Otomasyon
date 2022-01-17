@@ -627,7 +627,6 @@ public class BaseSteps extends BaseTest {
         Random random = new Random();
         int index = random.nextInt(elements.size());
         elements.get(index).click();
-        System.out.println("size: " + elements.size());
     }
 
     //Javascript driverın başlatılması

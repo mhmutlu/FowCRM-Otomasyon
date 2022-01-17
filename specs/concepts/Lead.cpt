@@ -75,6 +75,8 @@
 * Wait for element then click "Lead-Product-add-btn"
 * Wait "2" seconds
 * Wait for element then click "Product-list"
-* Wait "2" seconds
+* Wait "1" seconds
 * "Product-listv2" menu listesinden rasgele seç
+* Wait "1" seconds
+* Wait for element then click "save-actvty-btn"
 * Wait "5" seconds
