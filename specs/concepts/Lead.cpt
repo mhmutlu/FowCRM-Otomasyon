@@ -69,3 +69,9 @@
 * Write random value to element "Description"
 * Wait for element then click "save-actvty-btn"
 * Wait "3" seconds
+
+#Lead Product Add
+* Wait for element then click "Lead-Product-tab"
+* Wait for element then click "Lead-Product-add-btn"
+* Wait "2" seconds
+* "Product-list" menu listesinden rasgele seç

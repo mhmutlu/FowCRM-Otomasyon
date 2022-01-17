@@ -127,17 +127,17 @@
   "value": "div[class='notranslate public-DraftEditor-content']",
   "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Lead-Product-tab",
+  "value": "a:nth-child(3)>a>span>div>span>div>span>h3>span",
+  "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Lead-Product-add-btn",
+  "value": "button[class='sc-cxpSdN eQlGEI']",
+  "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Product-list",
+  "value": "div[class='rc-select rc-select-multiple rc-select-allow-clear rc-select-show-arrow rc-select-show-search']",
+  "type": "css"
 }, {
   "key": "",
   "value": "",
