@@ -3,10 +3,6 @@
   "value": "firstName",
   "type": "id"
 },{
-  "key": "Sales-Category",
-  "value": "div[class='sc-cRKLkh fWmHDk']>ul>li:nth-child(2)>div>h3>span>div>span",
-  "type": "css"
-},{
   "key": "Lead-tab",
   "value": "ul[class='rc-menu rc-menu-sub rc-menu-vertical']>li:nth-child(1)>div>div>h3>span",
   "type": "css"
@@ -128,16 +124,16 @@
   "type": "css"
 }, {
   "key": "Product-list",
-  "value": "div[class='rc-select rc-select-multiple rc-select-allow-clear rc-select-show-arrow rc-select-show-search']",
-  "type": "css"
-}, {
-  "key": "Product-listv2",
-  "value": "body>div:nth-child(2)>div>div.drawer-content-wrapper>div>div>div>div>form>div>div:nth-child(2)>div>div",
+  "value": "input[class='rc-select-selection-search-input']",
   "type": "css"
 }, {
   "key": "",
-  "value": "",
-  "type": ""
+  "value": "div[class='rc-virtual-list-holder-inner']",
+  "type": "css"
+}, {
+  "key": "Product-listv2",
+  "value": "div[class='rc-virtual-list-holder-inner']>div",
+  "type": "css"
 }, {
   "key": "",
   "value": "",
