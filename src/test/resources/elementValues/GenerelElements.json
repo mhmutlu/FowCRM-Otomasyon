@@ -10,4 +10,9 @@
   "key": "object-detail-name",
   "value": "div[class='sc-jrQzAO gpODUY']>div>h4>span",
   "type": "css"
-}]
+},{
+  "key": "Sales-Category",
+  "value": "div[class='sc-cRKLkh fWmHDk']>ul>li:nth-child(2)>div>h3>span>div>span",
+  "type": "css"
+}
+]
