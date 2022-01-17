@@ -74,6 +74,7 @@
 * Wait for element then click "Lead-Product-tab"
 * Wait for element then click "Lead-Product-add-btn"
 * Wait "2" seconds
-* Click to element "Product-listv2" with focus
-* Wait for element then click "Product-listv2"
+* Wait for element then click "Product-list"
+* Wait "2" seconds
+* "Product-listv2" menu listesinden rasgele seç
 * Wait "5" seconds
