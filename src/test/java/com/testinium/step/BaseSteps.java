@@ -376,6 +376,12 @@ public class BaseSteps extends BaseTest {
         logger.info(key + " elementine BACKSPACE keyi yollandı.");
     }
 
+    @Step({"Send ENTER key to element <key>",
+            "Elemente ENTER keyi yolla <key>"})
+    public void sendKeyToElementENTER(String key) {
+        findElement(key).sendKeys(Keys.ENTER);
+        logger.info(key + " elementine BACKSPACE keyi yollandı.");
+    }
     @Step({"Send ESCAPE key to element <key>",
             "Elemente ESCAPE keyi yolla <key>"})
     public void sendKeyToElementESCAPE(String key) {
@@ -621,6 +627,8 @@ public class BaseSteps extends BaseTest {
         Random random = new Random();
         int index = random.nextInt(elements.size());
         elements.get(index).click();
+        System.out.println("size: " + elements.size());
+        System.out.println("item: " + elements.get(0));
     }
 
     //Javascript driverın başlatılması

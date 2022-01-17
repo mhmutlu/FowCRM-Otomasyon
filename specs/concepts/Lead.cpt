@@ -1,12 +1,12 @@
 #Lead List Page
-* "Lead-Category" elementine focus ile tıkla
+* "Sales-Category" elementine focus ile tıkla
 * "1" saniye bekle
 * "Lead-tab" elementine focus ile tıkla
 
 #Lead Detail
-* Gettext ile niteliği sakla "Lead-list" elementi için
-* Elementi bekle ve sonra tıkla "Lead-list"
-* "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Gettext ile niteliği sakla "list-table" elementi için
+* Elementi bekle ve sonra tıkla "list-table"
+* "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * "3" saniye bekle
 
 #Lead Edit
@@ -74,4 +74,6 @@
 * Wait for element then click "Lead-Product-tab"
 * Wait for element then click "Lead-Product-add-btn"
 * Wait "2" seconds
-* "Product-list" menu listesinden rasgele seç
+* Click to element "Product-listv2" with focus
+* Wait for element then click "Product-listv2"
+* Wait "5" seconds

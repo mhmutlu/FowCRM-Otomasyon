@@ -1,0 +1,13 @@
+ [{
+     "key": "Contact-List",
+     "value": "ul[class='rc-menu rc-menu-sub rc-menu-vertical']>li:nth-child(2)>div>div>h3>span",
+     "type": "css"
+}, {
+   "key": "list-table",
+   "value": "table[class='sc-jlRLRk gBuNXz']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
+   "type": "css"
+}, {
+     "key": "object-detail-name",
+     "value": "div[class='sc-jrQzAO gpODUY']>div>h4>span",
+     "type": "css"
+   },]

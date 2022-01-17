@@ -37,10 +37,3 @@ Lead Activity
 * Lead Detail
 * Lead Activity Add
 * Logout
-
-Lead Product
---------
-* Login
-* Lead List Page
-* Lead Detail
-* Lead Product Add
