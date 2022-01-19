@@ -44,3 +44,4 @@ Lead Product
 * Lead List Page
 * Lead Detail
 * Lead Product Add
+* Logout
