@@ -65,7 +65,8 @@
 * Wait for element then click "date-today"
 * Wait for element then click "choose-hour"
 * Wait for element then click "date-save-btn"
-* "purposelist" menu listesinden rasgele seç
+* Wait for element then click "purposelist"
+* "purposelistv2" menu listesinden rasgele seç
 * Write random value to element "Description"
 * Wait for element then click "save-actvty-btn"
 * Wait "3" seconds

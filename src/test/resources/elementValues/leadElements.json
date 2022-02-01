@@ -111,6 +111,10 @@
   "value": "purposeId",
   "type": "id"
 }, {
+  "key": "purposelistv2",
+  "value": "div[class='rc-virtual-list-holder-inner']>div",
+  "type": "css"
+}, {
   "key": "Description",
   "value": "div[class='notranslate public-DraftEditor-content']",
   "type": "css"

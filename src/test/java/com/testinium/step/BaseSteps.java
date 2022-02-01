@@ -819,7 +819,7 @@ public class BaseSteps extends BaseTest {
 
     @Step("<key> menu listesinden rasgele seç")
     public void chooseRandomElementFromList(String key) {
-        for (int i = 0; i < 3 ; i++)
+        for (int i = 0; i < 1 ; i++)
             randomPick(key);
     }
 
