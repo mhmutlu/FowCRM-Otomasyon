@@ -1,0 +1,18 @@
+[{
+  "key": "Customer-Category",
+  "value": "div[class='sc-cRKLkh fWmHDk']>ul>li:nth-child(1)>div>h3>span>div>span",
+  "type": "css"
+}, {
+  "key": "list-table",
+  "value": "table[class='sc-jlRLRk gBuNXz']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
+  "type": "css"
+}, {
+  "key": "object-detail-name",
+  "value": "div[class='sc-jrQzAO gpODUY']>div>h4>span",
+  "type": "css"
+},{
+  "key": "Sales-Category",
+  "value": "div[class='sc-cRKLkh fWmHDk']>ul>li:nth-child(2)>div>h3>span>div>span",
+  "type": "css"
+}
+]

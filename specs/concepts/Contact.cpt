@@ -1,0 +1,11 @@
+#Contact List Page
+* Wait for element then click "Customer-Category"
+* Wait "1" seconds
+* Wait for element then click "Contact-List"
+* Wait "2" seconds
+
+#Contact Detail
+* Gettext ile niteliği sakla "list-table" elementi için
+* Elementi bekle ve sonra tıkla "list-table"
+* "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* "3" saniye bekle

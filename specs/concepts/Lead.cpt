@@ -1,12 +1,12 @@
 #Lead List Page
-* "Lead-Category" elementine focus ile tıkla
+* "Sales-Category" elementine focus ile tıkla
 * "1" saniye bekle
 * "Lead-tab" elementine focus ile tıkla
 
 #Lead Detail
-* Gettext ile niteliği sakla "Lead-list" elementi için
-* Elementi bekle ve sonra tıkla "Lead-list"
-* "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Gettext ile niteliği sakla "list-table" elementi için
+* Elementi bekle ve sonra tıkla "list-table"
+* "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * "3" saniye bekle
 
 #Lead Edit
@@ -65,7 +65,19 @@
 * Wait for element then click "date-today"
 * Wait for element then click "choose-hour"
 * Wait for element then click "date-save-btn"
-* "purposelist" menu listesinden rasgele seç
+* Wait for element then click "purposelist"
+* "purposelistv2" menu listesinden rasgele seç
 * Write random value to element "Description"
 * Wait for element then click "save-actvty-btn"
 * Wait "3" seconds
+
+#Lead Product Add
+* Wait for element then click "Lead-Product-tab"
+* Wait for element then click "Lead-Product-add-btn"
+* Wait "2" seconds
+* Wait for element then click "Product-list"
+* Wait "1" seconds
+* "Product-listv2" menu listesinden rasgele seç
+* Wait "1" seconds
+* Wait for element then click "save-actvty-btn"
+* Wait "5" seconds

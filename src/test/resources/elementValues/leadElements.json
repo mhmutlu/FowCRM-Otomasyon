@@ -3,24 +3,12 @@
   "value": "firstName",
   "type": "id"
 },{
-  "key": "Lead-Category",
-  "value": "div[class='sc-cRKLkh fWmHDk']>ul>li:nth-child(2)>div>h3>span>div>span",
-  "type": "css"
-},{
   "key": "Lead-tab",
   "value": "ul[class='rc-menu rc-menu-sub rc-menu-vertical']>li:nth-child(1)>div>div>h3>span",
   "type": "css"
 },{
-  "key": "Lead-list",
-  "value": "table[class='sc-jlRLRk gBuNXz']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div > div:nth-child(2)",
-  "type": "css"
-},{
   "key": "save-button",
   "value": "button[class='ant-btn ant-btn-text ant-btn-flat base-sc-1nyq7v5-0 styles__StyledButton-sc-1dkgdhi-0 dHEEss bGZLjy']",
-  "type": "css"
-},{
-  "key": "lead-detail-name",
-  "value": "div[class='sc-jrQzAO gpODUY']>div>h4>span",
   "type": "css"
 },{
   "key": "leadLastNameTxt",
@@ -123,29 +111,33 @@
   "value": "purposeId",
   "type": "id"
 }, {
+  "key": "purposelistv2",
+  "value": "div[class='rc-virtual-list-holder-inner']>div",
+  "type": "css"
+}, {
   "key": "Description",
   "value": "div[class='notranslate public-DraftEditor-content']",
   "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Lead-Product-tab",
+  "value": "a:nth-child(3)>a>span>div>span>div>span>h3>span",
+  "type": "css"
+}, {
+  "key": "Lead-Product-add-btn",
+  "value": "button[class='sc-cxpSdN eQlGEI']",
+  "type": "css"
+}, {
+  "key": "Product-list",
+  "value": "input[class='rc-select-selection-search-input']",
+  "type": "css"
 }, {
   "key": "",
-  "value": "",
-  "type": ""
+  "value": "div[class='rc-virtual-list-holder-inner']",
+  "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
-}, {
-  "key": "",
-  "value": "",
-  "type": ""
-}, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Product-listv2",
+  "value": "div[class='rc-virtual-list-holder-inner']>div",
+  "type": "css"
 }, {
   "key": "",
   "value": "",

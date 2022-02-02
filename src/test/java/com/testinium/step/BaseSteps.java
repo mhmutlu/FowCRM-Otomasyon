@@ -376,6 +376,12 @@ public class BaseSteps extends BaseTest {
         logger.info(key + " elementine BACKSPACE keyi yollandı.");
     }
 
+    @Step({"Send ENTER key to element <key>",
+            "Elemente ENTER keyi yolla <key>"})
+    public void sendKeyToElementENTER(String key) {
+        findElement(key).sendKeys(Keys.ENTER);
+        logger.info(key + " elementine BACKSPACE keyi yollandı.");
+    }
     @Step({"Send ESCAPE key to element <key>",
             "Elemente ESCAPE keyi yolla <key>"})
     public void sendKeyToElementESCAPE(String key) {
@@ -813,7 +819,7 @@ public class BaseSteps extends BaseTest {
 
     @Step("<key> menu listesinden rasgele seç")
     public void chooseRandomElementFromList(String key) {
-        for (int i = 0; i < 3 ; i++)
+        for (int i = 0; i < 1 ; i++)
             randomPick(key);
     }
 
