@@ -14,7 +14,7 @@
 //* "logo" elementini kontrol et
 
 #Logout
-* "menu2" elementine focus ile tıkla
-* "logout" elementine focus ile tıkla
+* Wait for element then click "menu2"
+* Wait for element then click "logout"
 * "3" saniye bekle
 

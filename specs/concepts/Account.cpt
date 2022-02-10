@@ -3,6 +3,8 @@
 * Wait "1" seconds
 * Wait for element then click "Account-List"
 * Wait "2" seconds
+* Check title for "Accounts | Fow CRM"
+* Wait "2" seconds
 
 # Account Detail Page
 * Gettext ile niteliği sakla "Account-table" elementi için
