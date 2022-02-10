@@ -4,7 +4,7 @@
   "type": "id"
 },{
   "key": "Lead-tab",
-  "value": "ul[class='rc-menu rc-menu-sub rc-menu-vertical']>li:nth-child(1)>div>div>h3>span",
+  "value": "li:nth-child(2)>ul>li:nth-child(1)>a>div>div>span",
   "type": "css"
 },{
   "key": "save-button",
