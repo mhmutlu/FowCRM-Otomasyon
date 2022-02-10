@@ -3,9 +3,9 @@
   "value": "li:nth-child(1)>ul>li:nth-child(1)>a>div>div>span",
   "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Account-table",
+  "value": "table[class='sc-hjGZqJ koMhlm']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div",
+  "type": "css"
 }, {
   "key": "",
   "value": "",

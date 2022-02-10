@@ -5,7 +5,7 @@
 * Wait "2" seconds
 
 #Contact Detail
-* Gettext ile niteliği sakla "list-table" elementi için
-* Elementi bekle ve sonra tıkla "list-table"
+* Gettext ile niteliği sakla "Account-table" elementi için
+* Elementi bekle ve sonra tıkla "Account-table"
 * "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * "3" saniye bekle

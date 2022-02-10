@@ -3,3 +3,8 @@
 * Wait "1" seconds
 * Wait for element then click "Account-List"
 * Wait "2" seconds
+
+# Account Detail Page
+* Gettext ile niteliği sakla "Account-table" elementi için
+* Elementi bekle ve sonra tıkla "Account-table"
+* "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et

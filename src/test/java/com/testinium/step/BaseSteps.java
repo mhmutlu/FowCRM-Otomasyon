@@ -503,7 +503,6 @@ public class BaseSteps extends BaseTest {
             "Gettext ile niteliği sakla <key> elementi için"})
     public void saveAttributeValueOfElementgetText(String key) {
         SAVED_ATTRIBUTE = findElement(key).getText();
-        System.out.println("Saved attribute value is 2: " + SAVED_ATTRIBUTE);
     }
 
     @Step({"Gettext ile niteliği adı <ad> ve soyad <soyad> elementi için"})

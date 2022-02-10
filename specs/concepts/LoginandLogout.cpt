@@ -1,8 +1,10 @@
 # Login
 * "https://crm.fowapps.com/" adresine git
 * "3" saniye bekle
-* "mhmutlu@bilgeadam.com" değerini "mail-text" elementine focus ile yaz
-* "next-btn" elementine focus ile tıkla
+* "mhmutlu@bilgeadam.com" textini "mail-text" elemente yaz
+"mhmutlu@bilgeadam.com" değerini "mail-text" elementine focus ile yaz
+* Wait for element then click "next-btn"
+"next-btn" elementine focus ile tıkla
 * "3" saniye bekle
 * "fow-canli" değerini "tenant-name" elementine focus ile yaz
 * "Mh_321" değerini "password-field" elementine focus ile yaz
