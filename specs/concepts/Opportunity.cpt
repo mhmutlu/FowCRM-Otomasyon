@@ -1,0 +1,13 @@
+# Opportunity List Page
+* "Sales-Category" elementine focus ile tıkla
+* "1" saniye bekle
+* "Opportunity-List" elementine focus ile tıkla
+* "1" saniye bekle
+* Check title for "Opportunities | Fow CRM"
+* Wait "2" seconds
+
+
+# Opportunity Detail Page
+* Gettext ile niteliği sakla "Opportunity-table" elementi için
+* Elementi bekle ve sonra tıkla "Opportunity-table"
+* "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et

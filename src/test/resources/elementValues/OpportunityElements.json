@@ -1,0 +1,18 @@
+[{
+  "key": "Opportunity-List",
+  "value": "li:nth-child(2)>ul>li:nth-child(2)>a>div>div>span",
+  "type": "css"
+}, {
+  "key": "Opportunity-Table",
+  "value": "table[class='sc-gjNHFA jagAfD']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div",
+  "type": "css"
+}, {
+  "key": "",
+  "value": "",
+  "type": ""
+}, {
+  "key": "",
+  "value": "",
+  "type": ""
+}
+]
