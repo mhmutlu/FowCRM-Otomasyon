@@ -2,6 +2,9 @@
 * "Sales-Category" elementine focus ile tıkla
 * "1" saniye bekle
 * "Lead-tab" elementine focus ile tıkla
+* "1" saniye bekle
+* Check title for "Leads | Fow CRM"
+* Wait "2" seconds
 
 #Lead Detail
 * Gettext ile niteliği sakla "list-table" elementi için
