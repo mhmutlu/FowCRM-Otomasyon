@@ -1,4 +1,4 @@
-#Contact List Page
+# Contact List Page
 * Check if element "Customer-Category" exists
 * Wait for element then click "Customer-Category"
 * Check if element "Contact-List" exists
@@ -8,7 +8,7 @@
 * Wait "2" seconds
 
 
-#Contact Detail
+# Contact Detail
 * Check if element "Contact-Table" exists
 * Gettext ile niteliği sakla "Contact-Table" elementi için
 * Elementi bekle ve sonra tıkla "Contact-Table"

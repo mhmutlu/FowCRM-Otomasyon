@@ -1,4 +1,4 @@
-#Lead List Page
+# Lead List Page
 * Check if element "Sales-Category" exists
 * "Sales-Category" elementine focus ile tıkla
 * Check if element "Lead-tab" exists
@@ -6,14 +6,14 @@
 * "1" saniye bekle
 * Check title for "Leads | Fow CRM"
 
-#Lead Detail
+# Lead Detail
 * Check if element "list-table" exists
 * Gettext ile niteliği sakla "list-table" elementi için
 * Elementi bekle ve sonra tıkla "list-table"
 * Check if element "object-detail-name" exists
 * "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 
-#Lead Edit
+# Lead Edit
 *Check if element "detail-threedot" exists
 * Click to element "detail-threedot" with focus
 * Check if element "detail-edit" exists
@@ -36,7 +36,7 @@
 * "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * Wait "2" seconds
 
-#Lead Add
+# Lead Add
 * Click to element "Lead-Add-Button" with focus
 * Wait "2" seconds
 * "leadNameTxt" elementine random değer yaz
@@ -52,7 +52,7 @@
 * "Lead-list" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * Wait "2" seconds
 
-#Lead Convert
+# Lead Convert
 * Click to element "convert-btn" with focus
 * Wait "2" seconds
 * Click to element "convert-radio-btn" with focus
@@ -62,7 +62,7 @@
 * "lead-cnvrt-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * Wait "2" seconds
 
-#Lead Activity Add
+# Lead Activity Add
 * Click to element "lead-activity" with focus
 * Wait for element then click "add-activity-btn"
 * Wait "2" seconds
@@ -79,7 +79,7 @@
 * Wait for element then click "save-actvty-btn"
 * Wait "3" seconds
 
-#Lead Product Add
+# Lead Product Add
 * Wait for element then click "Lead-Product-tab"
 * Wait for element then click "Lead-Product-add-btn"
 * Wait "2" seconds
