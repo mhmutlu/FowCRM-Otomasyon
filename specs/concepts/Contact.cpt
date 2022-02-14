@@ -1,6 +1,7 @@
 #Contact List Page
+* Check if element "Customer-Category" exists
 * Wait for element then click "Customer-Category"
-* Wait "1" seconds
+* Check if element "Contact-List" exists
 * Wait for element then click "Contact-List"
 * Wait "2" seconds
 * Check title for "Contacts | Fow CRM"
@@ -8,6 +9,7 @@
 
 
 #Contact Detail
+* Check if element "Contact-Table" exists
 * Gettext ile niteliği sakla "Contact-Table" elementi için
 * Elementi bekle ve sonra tıkla "Contact-Table"
 * Check if element "Contact-Detail-Name" exists

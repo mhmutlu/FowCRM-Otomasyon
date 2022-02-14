@@ -1,24 +1,28 @@
 #Lead List Page
+* Check if element "Sales-Category" exists
 * "Sales-Category" elementine focus ile tıkla
-* "1" saniye bekle
+* Check if element "Lead-tab" exists
 * "Lead-tab" elementine focus ile tıkla
 * "1" saniye bekle
 * Check title for "Leads | Fow CRM"
-* Wait "2" seconds
 
 #Lead Detail
+* Check if element "list-table" exists
 * Gettext ile niteliği sakla "list-table" elementi için
 * Elementi bekle ve sonra tıkla "list-table"
+* Check if element "object-detail-name" exists
 * "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
-* "3" saniye bekle
 
 #Lead Edit
+*Check if element "detail-threedot" exists
 * Click to element "detail-threedot" with focus
-* Wait "2" seconds
+* Check if element "detail-edit" exists
 * Click to element "detail-edit" with focus
-* Wait "3" seconds
+* Check if element "leadNameTxt" exists
 * "leadNameTxt" alanını action backspace ile temizle
+* Check if element "leadLastNameTxt" exists
 * "leadLastNameTxt" alanını action backspace ile temizle
+* Check if element "leadEmailTxt" exists
 * "leadEmailTxt" alanını action backspace ile temizle
 * Wait "2" seconds
 * "leadNameTxt" elementine random değer yaz
@@ -26,8 +30,9 @@
 * "leadEmailTxt" li elementi bul, temizle ve rasgele  email değerini yaz
 * Wait "5" seconds
 * Gettext ile niteliği adı "leadNameTxt" ve soyad "leadLastNameTxt" elementi için
+* Check if element "save-button" exists
 * Click to element "save-button" with focus
-* Wait "5" seconds
+* Check if element "lead-detail-name" exists
 * "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * Wait "2" seconds
 

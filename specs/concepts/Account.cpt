@@ -1,12 +1,14 @@
 # Account List Page
+* Check if element "Customer-Category" exists
 * Wait for element then click "Customer-Category"
-* Wait "1" seconds
+* Check if element "Account-List" exists
 * Wait for element then click "Account-List"
 * Wait "2" seconds
 * Check title for "Accounts | Fow CRM"
-* Wait "2" seconds
 
 # Account Detail Page
+* Check if element "Account-table" exists
 * Gettext ile niteliği sakla "Account-table" elementi için
 * Elementi bekle ve sonra tıkla "Account-table"
+* Check if element "object-detail-name" exists
 * "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
