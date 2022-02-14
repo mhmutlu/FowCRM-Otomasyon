@@ -8,7 +8,8 @@
 
 
 #Contact Detail
-* Gettext ile niteliği sakla "Account-table" elementi için
-* Elementi bekle ve sonra tıkla "Account-table"
-* "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Gettext ile niteliği sakla "Contact-Table" elementi için
+* Elementi bekle ve sonra tıkla "Contact-Table"
+* Check if element "Contact-Detail-Name" exists
+* "Contact-Detail-Name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * "3" saniye bekle

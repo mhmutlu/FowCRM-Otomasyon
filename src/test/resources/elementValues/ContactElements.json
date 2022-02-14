@@ -1,15 +1,15 @@
 [{
   "key": "Contact-List",
-  "value": "ul[class='rc-menu rc-menu-sub rc-menu-vertical']>li:nth-child(2)>div>div>h3>span",
+  "value": "ul>li:nth-child(1)>ul>li:nth-child(2)>a>div>div>span",
   "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Contact-Detail-Name",
+  "value": "div[class='sc-jrQzAO feWYOF']>h4>span",
+  "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Contact-Table",
+  "value": "table[class='sc-hjGZqJ koMhlm']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div>div:nth-child(2)",
+  "type": "css"
 }, {
   "key": "",
   "value": "",
