@@ -10,4 +10,4 @@
 # Opportunity Detail Page
 * Gettext ile niteliği sakla "Opportunity-table" elementi için
 * Elementi bekle ve sonra tıkla "Opportunity-table"
-* "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* "Opportunity-Detail-Name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et

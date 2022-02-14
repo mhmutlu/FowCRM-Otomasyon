@@ -3,13 +3,13 @@
   "value": "li:nth-child(2)>ul>li:nth-child(2)>a>div>div>span",
   "type": "css"
 }, {
-  "key": "Opportunity-Table",
-  "value": "table[class='sc-gjNHFA jagAfD']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div",
+  "key": "Opportunity-table",
+  "value": "table[class='sc-hjGZqJ koMhlm']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div",
   "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "Opportunity-Detail-Name",
+  "value": "div[class='sc-jrQzAO feWYOF']>h4>span",
+  "type": "css"
 }, {
   "key": "",
   "value": "",
