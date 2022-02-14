@@ -1,20 +1,23 @@
 # Login
 * "https://crm.fowapps.com/" adresine git
-* "3" saniye bekle
+*Check if element "mail-text" exists
 * "mhmutlu@bilgeadam.com" textini "mail-text" elemente yaz
-"mhmutlu@bilgeadam.com" değerini "mail-text" elementine focus ile yaz
+* Check if element "next-btn" exists
 * Wait for element then click "next-btn"
-"next-btn" elementine focus ile tıkla
-* "3" saniye bekle
+* Wait "2" seconds
+* Check if element "tenant-name" exists
 * "fow-canli" değerini "tenant-name" elementine focus ile yaz
+* Check if element "password-field" exists
 * "Mh_321" değerini "password-field" elementine focus ile yaz
+* Check if element "Login-button" exists
 * "Login-button" elementine focus ile tıkla
-* "10" saniye bekle
+* Wait "10" seconds
 * Başlığı kontrol et "Overview | Fow CRM"
-//* "logo" elementini kontrol et
 
 #Logout
+* Check if element "menu2" exists
 * Wait for element then click "menu2"
+* Check if element "logout" exists
 * Wait for element then click "logout"
 * "3" saniye bekle
 

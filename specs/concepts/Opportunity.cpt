@@ -1,13 +1,15 @@
 # Opportunity List Page
+* Check if element "Sales-Category" exists
 * "Sales-Category" elementine focus ile tıkla
-* "1" saniye bekle
+* Check if element "Opportunity-List" exists
 * "Opportunity-List" elementine focus ile tıkla
 * "1" saniye bekle
 * Check title for "Opportunities | Fow CRM"
-* Wait "2" seconds
 
 
 # Opportunity Detail Page
+* Check if element "Opportunity-table" exists
 * Gettext ile niteliği sakla "Opportunity-table" elementi için
 * Elementi bekle ve sonra tıkla "Opportunity-table"
+* Check if element "Opportunity-Detail-Name" exists
 * "Opportunity-Detail-Name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
