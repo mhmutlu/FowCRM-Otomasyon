@@ -1,0 +1,14 @@
+# Quote List Page
+* Check if element "Sales-Category" exists
+* "Sales-Category" elementine focus ile tıkla
+* Check if element "Quote-List" exists
+* "Quote-List" elementine focus ile tıkla
+* "1" saniye bekle
+* Check title for "Quote | Fow CRM"
+
+# Quote Detail Page
+* Check if element "Quote-table" exists
+* Gettext ile niteliği sakla "Quote-table" elementi için
+* Elementi bekle ve sonra tıkla "Quote-table"
+* Check if element "Quote-Detail-Name" exists
+* "Quote-Detail-Name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et

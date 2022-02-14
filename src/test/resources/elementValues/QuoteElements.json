@@ -1,0 +1,18 @@
+[{
+"key": "Quote-List",
+"value": "li:nth-child(2)>ul>li:nth-child(3)>a>div>div>span",
+"type": "css"
+}, {
+"key": "Quote-table",
+"value": "tr:nth-child(1) > td[class='sc-fIosxK cBtdiw clickable'] > div > div",
+"type": "css"
+}, {
+"key": "Quote-Detail-Name",
+"value": "div[class='sc-jrQzAO gpODUY']>div>h4>span",
+"type": "css"
+}, {
+"key": "",
+"value": "",
+"type": ""
+}
+]
