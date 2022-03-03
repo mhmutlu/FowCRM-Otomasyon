@@ -4,7 +4,7 @@
 * "mhmutlu@bilgeadam.com" textini "mail-text" elemente yaz
 * Check if element "next-btn" exists
 * Wait for element then click "next-btn"
-* Wait "2" seconds
+* Wait "3" seconds
 * Check if element "tenant-name" exists
 * "fow-canli" değerini "tenant-name" elementine focus ile yaz
 * Check if element "password-field" exists

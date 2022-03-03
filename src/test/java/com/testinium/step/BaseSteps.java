@@ -25,6 +25,7 @@ public class BaseSteps extends BaseTest {
     public static int DEFAULT_MILLISECOND_WAIT_AMOUNT = 100;
 
     private static String SAVED_ATTRIBUTE;
+    private static String SAVED_ATTRUBUTE_ARRAY[] = new String[3];
 
     private String compareText;
 
@@ -504,6 +505,10 @@ public class BaseSteps extends BaseTest {
     public void saveAttributeValueOfElementgetText(String key) {
         SAVED_ATTRIBUTE = findElement(key).getText();
     }
+    @Step({"Save attribute values of element <key> with getTet to elemnt count <count>"})
+    public void saveAttributeAsArray(String key, int count){
+        SAVED_ATTRUBUTE_ARRAY[count] = findElement(key).getText();
+    }
 
     @Step({"Gettext ile niteliği adı <ad> ve soyad <soyad> elementi için"})
     public void saveAttributeValuesOfElemens(String ad, String soyad) {
@@ -531,6 +536,14 @@ public class BaseSteps extends BaseTest {
         Boolean containsText = findElement(key).getText().contains(SAVED_ATTRIBUTE);
         assertTrue(containsText, "Expected text is not contained");
         logger.info(key + " elementi" + SAVED_ATTRIBUTE + "değerini içeriyor.");
+    }
+
+    @Step({"Check if element <key>, <count> contains text saved attribute In Array",
+            "<key> elementi, <count> kaydedilmiş attribute değerini içeriyor mu kontrol et"})
+    public void checkElementContainsTextAtributeInArray(String key, int count) {
+        Boolean containsText = findElement(key).getText().contains(SAVED_ATTRUBUTE_ARRAY[count]);
+        assertTrue(containsText, "Expected text is not contained");
+        logger.info(key + " elementi" + SAVED_ATTRUBUTE_ARRAY[count] + "değerini içeriyor.");
     }
 
     @Step({"Write random value to element <key>",
