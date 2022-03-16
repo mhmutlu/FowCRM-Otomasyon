@@ -4,7 +4,7 @@
 "type": "css"
 }, {
 "key": "Quote-table",
-"value": "tr:nth-child(1) > td[class='sc-fIosxK cBtdiw clickable'] > div > div",
+"value": "tr:nth-child(1) > td[class='sc-djWRfJ brtTcP clickable'] > div > div",
 "type": "css"
 }, {
 "key": "Quote-Detail-Name",

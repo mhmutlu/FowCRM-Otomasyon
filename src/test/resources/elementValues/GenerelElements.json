@@ -1,6 +1,6 @@
 [{
   "key": "Customer-Category",
-  "value": "li[class='sc-dSfdvi eSfiWP']:nth-child(1)>a>div>div>span",
+  "value": "li[class='sc-kHxTfl cfcrTY']:nth-child(1)>a>div>div>span",
   "type": "css"
 }, {
   "key": "list-table",
@@ -12,7 +12,7 @@
   "type": "css"
 },{
   "key": "Sales-Category",
-  "value": "li[class='sc-dSfdvi eSfiWP']:nth-child(2)>a>div>div>span",
+  "value": "li[class='sc-kHxTfl cfcrTY']:nth-child(2)>a>div>div>span",
   "type": "css"
 }
 ]

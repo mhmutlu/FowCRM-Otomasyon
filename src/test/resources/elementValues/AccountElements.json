@@ -4,15 +4,15 @@
   "type": "css"
 }, {
   "key": "Account-table",
-  "value": "table[class='sc-hjGZqJ koMhlm']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div",
+  "value": "table[class='sc-avest fvfob']>tbody>tr:nth-child(1)>td:nth-child(2)>div>div",
   "type": "css"
 }, {
   "key": "Account-Phone",
-  "value": "table[class='sc-hjGZqJ koMhlm']>tbody>tr:nth-child(1)>td:nth-child(4)",
+  "value": "table[class='sc-avest fvfob']>tbody>tr:nth-child(1)>td:nth-child(4)",
   "type": "css"
 }, {
   "key": "Phone-Text",
-  "value": "div.sc-gDGHff.GRtqv > div > div.sc-hKumaY.kKKfCI > div.sc-jrQzAO.iHDMZM > div:nth-child(1) > div > div > div:nth-child(2) > h3 > span",
+  "value": "div:nth-child(1)>div:nth-child(3)>h3>span>a>span>div>span",
   "type": "css"
 }
 ]

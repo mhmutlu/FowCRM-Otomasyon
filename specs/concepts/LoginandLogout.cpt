@@ -12,7 +12,7 @@
 * Check if element "Login-button" exists
 * "Login-button" elementine focus ile tıkla
 * Wait "10" seconds
-* Başlığı kontrol et "Overview | Fow CRM"
+Başlığı kontrol et "Overview | Fow CRM"
 
 #Logout
 * Check if element "menu2" exists

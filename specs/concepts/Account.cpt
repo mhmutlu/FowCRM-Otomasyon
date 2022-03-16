@@ -9,10 +9,9 @@
 # Account Detail Page
 * Check if element "Account-table" exists
 * Save attribute values of element "Account-table" with getTet to elemnt count "0"
-* Save attribute values of element "Account-List" with getTet to elemnt count "1"
+* Save attribute values of element "Account-Phone" with getTet to elemnt count "1"
 * Gettext ile niteliği sakla "Account-table" elementi için
 * Elementi bekle ve sonra tıkla "Account-table"
 * Check if element "object-detail-name" exists
 * Check if element "object-detail-name", "0" contains text saved attribute In Array
 * Check if element "Phone-Text", "1" contains text saved attribute In Array
-* "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et

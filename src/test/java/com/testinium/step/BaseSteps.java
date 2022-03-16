@@ -541,9 +541,14 @@ public class BaseSteps extends BaseTest {
     @Step({"Check if element <key>, <count> contains text saved attribute In Array",
             "<key> elementi, <count> kaydedilmiş attribute değerini içeriyor mu kontrol et"})
     public void checkElementContainsTextAtributeInArray(String key, int count) {
-        Boolean containsText = findElement(key).getText().contains(SAVED_ATTRUBUTE_ARRAY[count]);
-        assertTrue(containsText, "Expected text is not contained");
-        logger.info(key + " elementi" + SAVED_ATTRUBUTE_ARRAY[count] + "değerini içeriyor.");
+        Boolean containsText = false;
+        if (SAVED_ATTRUBUTE_ARRAY[count] == ""){
+            containsText = false;
+            assertTrue(containsText, "Expected text is not contained");
+        }else {
+            containsText = findElement(key).getText().contains(SAVED_ATTRUBUTE_ARRAY[count]);
+            logger.info(key + " elementi" + SAVED_ATTRUBUTE_ARRAY[count] + "değerini içeriyor.");
+        }
     }
 
     @Step({"Write random value to element <key>",
