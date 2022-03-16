@@ -20,7 +20,7 @@
   "type": "id"
 },{
   "key": "Lead-Add-Button",
-  "value": "button[class='sc-cxpSdN didjSf']>span",
+  "value": "button[class='sc-bqiRlB jCkpur']>span",
   "type": "css"
 },{
   "key": "Lead-PhoneNumber",
@@ -139,9 +139,9 @@
   "value": "div[class='rc-virtual-list-holder-inner']>div",
   "type": "css"
 }, {
-  "key": "",
-  "value": "",
-  "type": ""
+  "key": "close-btn",
+  "value": "span[class='anticon anticon-close ant-notification-notice-close-icon']",
+  "type": "css"
 }, {
   "key": "",
   "value": "",
