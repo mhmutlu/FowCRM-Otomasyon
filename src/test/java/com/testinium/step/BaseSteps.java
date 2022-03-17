@@ -646,7 +646,7 @@ public class BaseSteps extends BaseTest {
         elements.get(index).click();
     }
 
-    // Key değeri alınan listeden rasgele element seçme amacıyla yazılmıştır. @Mehmetİnan
+    // Key değeri alınan listeden rasgele element seçme ve seçilen elementin text değerini kaydetmesi amacıyla yazılmıştır.
     public void randomPickandSaveText(String key) {
         List<WebElement> elements = findElements(key);
         Random random = new Random();
