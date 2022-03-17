@@ -59,6 +59,7 @@
 * Wait "2" seconds
 * "lead-cnvrt" elementi "Lead Is Converted" değerini içeriyor mu kontrol et
 * "lead-cnvrt-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Wait for element then click "close-btn"
 * Wait "2" seconds
 
 # Lead Activity Add
