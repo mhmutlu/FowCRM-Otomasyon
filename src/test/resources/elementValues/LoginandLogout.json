@@ -36,11 +36,11 @@
   "tpye": "css"
 }, {
   "key": "detail-threedot",
-  "value": "button[class='sc-cxpSdN kirMNF']>span>div>span>svg",
+  "value": "button[class='sc-bqiRlB hYcQxZ']>span>div>span>svg",
   "type": "css"
 },{
   "key": "detail-edit",
-  "value": "div[class='sc-bXTejn jahrdl']>div>div>a>a>span>div>span:nth-child(2)",
+  "value": "div[class='sc-jWUzzU OcaLH']>div>div>a>a>span>div>span:nth-child(2)",
   "type": "css"
 }
 ]

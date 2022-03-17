@@ -535,7 +535,7 @@ public class BaseSteps extends BaseTest {
     public void checkElementContainsTextAtribute(String key) {
         Boolean containsText = findElement(key).getText().contains(SAVED_ATTRIBUTE);
         assertTrue(containsText, "Expected text is not contained");
-        logger.info(key + " elementi" + SAVED_ATTRIBUTE + "değerini içeriyor.");
+        logger.info(key + " elementi \"" + SAVED_ATTRIBUTE + "\" değerini içeriyor.");
     }
 
     @Step({"Check if element <key>, <count> contains text saved attribute In Array",
@@ -643,6 +643,15 @@ public class BaseSteps extends BaseTest {
         List<WebElement> elements = findElements(key);
         Random random = new Random();
         int index = random.nextInt(elements.size());
+        elements.get(index).click();
+    }
+
+    // Key değeri alınan listeden rasgele element seçme amacıyla yazılmıştır. @Mehmetİnan
+    public void randomPickandSaveText(String key) {
+        List<WebElement> elements = findElements(key);
+        Random random = new Random();
+        int index = random.nextInt(elements.size());
+        SAVED_ATTRIBUTE = elements.get(index).getText();
         elements.get(index).click();
     }
 
@@ -840,6 +849,11 @@ public class BaseSteps extends BaseTest {
             randomPick(key);
     }
 
+    @Step("<key> menu listesinden rasgele seç ve texti kaydet")
+    public void chooseRandomElementFromListandSaveText(String key) {
+        for (int i = 0; i < 1 ; i++)
+            randomPickandSaveText(key);
+    }
 
     @Step("<key> olarak <index> indexi seçersem")
     public void choosingIndexFromDemandNo(String key, String index) {

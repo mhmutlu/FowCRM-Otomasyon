@@ -8,13 +8,14 @@
 
 # Lead Detail
 * Check if element "list-table" exists
-* Gettext ile niteliği sakla "list-table" elementi için
-* Elementi bekle ve sonra tıkla "list-table"
+Gettext ile niteliği sakla "list-table" elementi için
+Elementi bekle ve sonra tıkla "list-table"
+* "list-table" menu listesinden rasgele seç ve texti kaydet
 * Check if element "object-detail-name" exists
 * "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 
 # Lead Edit
-*Check if element "detail-threedot" exists
+* Check if element "detail-threedot" exists
 * Click to element "detail-threedot" with focus
 * Check if element "detail-edit" exists
 * Click to element "detail-edit" with focus
@@ -28,12 +29,11 @@
 * "leadNameTxt" elementine random değer yaz
 * "leadLastNameTxt" elementine random değer yaz
 * "leadEmailTxt" li elementi bul, temizle ve rasgele  email değerini yaz
-* Wait "5" seconds
 * Gettext ile niteliği adı "leadNameTxt" ve soyad "leadLastNameTxt" elementi için
 * Check if element "save-button" exists
 * Click to element "save-button" with focus
-* Check if element "lead-detail-name" exists
-* "lead-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
+* Check if element "object-detail-name" exists
+* "object-detail-name" elementi kaydedilmiş attribute değerini içeriyor mu kontrol et
 * Wait "2" seconds
 
 # Lead Add
